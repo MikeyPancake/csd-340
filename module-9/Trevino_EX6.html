@@ -5,7 +5,7 @@
     <title>CSD 340 Web Development with HTML and CSS</title>
 
     <!--Font Link to CSS sheet-->
-    <link href="Trevino_EX5.css" type="text/css" rel="stylesheet"/>
+    <link href="Trevino_EX6.css" type="text/css" rel="stylesheet"/>
         
     <!--Link to Google Font Kit-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,7 @@
 <body>
     <header>
         <!--Add an h1 tag with a text value of “Assignment 7.2: Build a Web Page - Part 5”-->
-        <h1>Assignment 7.2: Build a Web Page - Part 5</h1>
+        <h1>Assignment 9.2: Build a Web Page - Part 6</h1>
     </header> 
         
     <div id="navbar">
@@ -27,7 +27,29 @@
     </div>
 
     <div id="container">
-        <!--Add a new div with a class of card-->
+        <!--Add a new card, card-title, and card-content divs above the Books list div-->
+        <div class="card">
+            
+            <!--Added Book Entry Button -->
+            <div class="card-title">
+                Book Entry Form
+            </div>
+
+            <div class="card-content">
+                <div class="form">
+                    <div class="form-field">
+                        <label for="txtBookName"> Book Name:</label>
+                        <input type="text" id="txtBookName" class="input" name="txtBookName" />
+                    </div>
+                    <div class="form-field">
+                        <button type="submit" class="btn btn-primary full-width">Create Book</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br /><br ?>
+
         <div class="card">
             <!--Inside the card div add a new div with a class of card-title. 
                     Give the card-title a value of “Top 5 Favorite Books”-->
@@ -35,30 +57,48 @@
                 Top 5 Favorite Books
             </div>
 
-            <!--Inside the card div add a new div with a class of card-content (underneath the card-title div)
-                Create an ordered list of your top 5 favorite books-->
+            <!--Added table from previous assignment's "Top 5 Books"-->
             <div class="card-content">
-                <ol>
-                    <li>The Mission, Men, and Me</li>
-                    <li>Not A Good Day TO Die</li>
-                    <li>No Easy Day</li>
-                    <li>The Only Thing Worth Dying For</li>
-                    <li>Relentless Strike</li>
-                </ol>
-            </div>
+                <br />
+                <table id="books">
+                    <tr>
+                        <th>Book ID</th>
+                        <th>Book Name</th>
+                    </tr>
+                    <tr>
+                        <td>100</td>
+                        <td>The Mission, Men, and Me</td>
+                    </tr>
+                    <tr>
+                        <td>101</td>
+                        <td>Not A Good Day TO Die</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>No Easy Day</td>
+                    </tr>
+                    <tr>
+                        <td>103</td>
+                        <td>The Only Thing Worth Dying For</td>
+                    </tr>
+                    <tr>
+                        <td>104</td>
+                        <td>Relentless Strike</td>
+                    </tr>
+                </table>
+            </div>    
         </div>
     </div>
-
-<footer>
-    <!--Add a p tag with a link to Bellevue Universities website 
-        Make sure you open the link in a new browser tab-->
-    <p>
-    <!--Use the HTML copyright sign and use the script tag to display the current year using the document.write function 
-        document.write(new Date().getFullYear())-->
-        &copy; <script>document.write(new Date().getFullYear());</script> - <a href="https://www.bellevue.edu/" target="_blank">Bellevue University</a>
-    </p>   
-</footer>
-
+    
+    <footer>
+        <!--Add a p tag with a link to Bellevue Universities website 
+            Make sure you open the link in a new browser tab-->
+        <p>
+        <!--Use the HTML copyright sign and use the script tag to display the current year using the document.write function 
+            document.write(new Date().getFullYear())-->
+            &copy; <script>document.write(new Date().getFullYear());</script> - <a href="https://www.bellevue.edu/" target="_blank">Bellevue University</a>
+        </p>   
+    </footer>
 </body>
 </html>
     
