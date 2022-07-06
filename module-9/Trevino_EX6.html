@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Project title-->
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+    <!--Font Link to CSS sheet-->
+    <link href="Trevino_EX5.css" type="text/css" rel="stylesheet"/>
+        
+    <!--Link to Google Font Kit-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--Add an h1 tag with a text value of “Assignment 7.2: Build a Web Page - Part 5”-->
+        <h1>Assignment 7.2: Build a Web Page - Part 5</h1>
+    </header> 
+        
+    <div id="navbar">
+        <!--Add three anchor tags with an href of # and text values of Home, About, and Contact-->
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div id="container">
+        <!--Add a new div with a class of card-->
+        <div class="card">
+            <!--Inside the card div add a new div with a class of card-title. 
+                    Give the card-title a value of “Top 5 Favorite Books”-->
+            <div class="card-title">
+                Top 5 Favorite Books
+            </div>
+
+            <!--Inside the card div add a new div with a class of card-content (underneath the card-title div)
+                Create an ordered list of your top 5 favorite books-->
+            <div class="card-content">
+                <ol>
+                    <li>The Mission, Men, and Me</li>
+                    <li>Not A Good Day TO Die</li>
+                    <li>No Easy Day</li>
+                    <li>The Only Thing Worth Dying For</li>
+                    <li>Relentless Strike</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <!--Add a p tag with a link to Bellevue Universities website 
+        Make sure you open the link in a new browser tab-->
+    <p>
+    <!--Use the HTML copyright sign and use the script tag to display the current year using the document.write function 
+        document.write(new Date().getFullYear())-->
+        &copy; <script>document.write(new Date().getFullYear());</script> - <a href="https://www.bellevue.edu/" target="_blank">Bellevue University</a>
+    </p>   
+</footer>
+
+</body>
+</html>
+    
