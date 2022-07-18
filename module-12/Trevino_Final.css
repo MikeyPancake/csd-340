@@ -1,0 +1,121 @@
+html {
+    background-color: White;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+header {
+    background-color: #3c275a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: #d6a800 solid 5px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Oswald, Verdana, Arial, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+h3 {
+    text-align: center;
+    font-family: Oswald, Verdana, Arial, sans-serif;
+    font-weight: 400;
+    color: #d6a800;
+    text-decoration: underline;
+}
+
+p {
+    color: black;
+    text-align: left;
+    font-family: Oswald, Verdana, Arial, sans-serif;
+
+}
+
+.hobbies, .experiences {
+    min-height: 250px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1px;
+    margin: 2%;
+}
+
+.grid-card {
+    border: #3c275a solid 5px;
+    width: 95%;
+    align-content: inherit; 
+}
+
+.card-content {
+    padding: 20px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border: black solid 2px;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-family: Oswald, Verdana, Arial, sans-serif;
+    font-size: .75em;
+    font-weight: 400;
+    color: black;
+}
+
+.contact {
+    margin-top: 0px;
+    margin-bottom: 5%;
+    margin-right: 3.7%;
+    margin-left: 2.2%;
+    text-align: center;
+    
+}
+
+.contact-content {
+    border: #3c275a solid 5px;
+    padding: 20px;
+    margin-top: 2%;
+}
+
+.input{
+    border: #4F3674 solid 2px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.input:hover{
+    background-color: #D6A800;
+    cursor:auto;
+}
+
+.btn{
+    margin-top: 1%;
+    font-size: 15px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    font-weight: 400;
+    border: black solid 2px;
+}

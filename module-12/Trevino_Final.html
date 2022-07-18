@@ -5,7 +5,7 @@
     <title>CSD 340 Web Development with HTML and CSS</title>
 
     <!--Font Link to CSS sheet-->
-    <link href="Trevino_EX6.css" type="text/css" rel="stylesheet"/>
+    <link href="Trevino_Final.css" type="text/css" rel="stylesheet"/>
         
     <!--Link to Google Font Kit-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,25 +14,151 @@
 </head>
 
 <body>
-    <header>
-        <!--Add an h1 tag with a text value of “Assignment 7.2: Build a Web Page - Part 5”-->
+    <header id="header">
         <h1>Assignment 12.3: Final Exam</h1>
     </header> 
 
     <div id="container">
-
+        <!--Main div for Hobbies-->
         <div class="hobbies">
+            <h2>My Hobbies</h2>
+            <!--Grid elements-->
+            <div class="grid">
+                <!--Card 1-->
+                <div class="grid-card">
+                    <!--title-->
+                    <div class="card-title">
+                        <h3>Hobby One: Long Range Shooting</h3>
+                    </div>
+                    <!--Picture with caption-->
+                    <div class="card-content">
+                        <figure>
+                            <img src="pictures\sam_1mile.jpg" alt="Hobby 1">
+                            <figcaption>
+                                1 Mile impact on a 12 inch plate using a .308 
+                            </figcaption>
+                            <p>
+                                My favorite hobby is competing in the Precision Rifle sport. I enjoy all aspect of shooting a rifle to include 
+                                making ammunition, studying ballistics and taking a small bullet and hitting a target out to a mile.
+                            </p>
+                        </figure>
+                    </div>
+                </div>
+                
+                <!--Card 2-->
+                <div class="grid-card">
+                    <!--title-->
+                    <div class="card-title">
+                        <h3>Hobby Two: Skydiving</h3>
+                    </div>
+                    <!--Picture with caption-->
+                    <div class="card-content">
+                        <figure>
+                            <img src="pictures\sam_sky.jpg" alt="Hobby 2">
+                            <figcaption>
+                                Skydiving at 19,000 feet above ground 
+                            </figcaption>
+                            <p>
+                                My second favorite hobby is skydiving. I do a lot of skydiving to include civilian 
+                                and military type skydiving. Skydiving gives me an adrenaline pump like none other!
+                            </p>
+                        </figure>
+                    </div>
+                </div>
 
+                <!--Card 3-->
+                <div class="grid-card">
+                    <!--title-->
+                    <div class="card-title">
+                        <h3>Hobby Three: Traveling</h3>
+                    </div>
+                    <!--Picture with caption-->
+                    <div class="card-content">
+                        <figure>
+                            <img src="pictures\sam_ecu.jpg" alt="Hobby 3">
+                            <figcaption>
+                                Visiting the "Middle of the world" in Ecuador.
+                            </figcaption>
+                            <p>
+                                My third favorite hobby is to travel and see the world. I spend a lot of time in Central and South America. 
+                                Best part about seeing the world is that I never have to pay to do it! I guess i am lucky!
+                            </p>
+                        </figure>
+                    </div>
+                </div> 
+            </div>
         </div>
 
-        <div class="experience">
-
+        <!--Main div for the three images-->
+        <div id="experiences">
+            <h2>My Experiences</h2>
+            <!--Grid elements-->
+            <div class="grid">
+                <!--Card 1-->
+                <div class="grid-card">
+                        <!--Title-->
+                    <div class="card-title">
+                        <h3>Experience One: Military</h3>
+                    </div>
+                    <div class="card-content">
+                            My main job experience is the Military. I have served in the US Army since I was 19 years old and I have been in for 18 years in various positions and job fields.
+                            In my current job, I am a Warrant Officer who is responsible for 10 enlisted Soldiers. 
+                            My current service obligation will take me to 22 years and then I can retire. I will be 41 years old when I retire, so that 
+                            will be a huge plus. Downside, I will have the body of an 80 year old man, but it is so worth it!
+                    </div>
+                </div>
+                <!--Card 2-->
+                <div class="grid-card">
+                    <!--Title-->
+                    <div class="card-title">
+                        <h3>Experience Two: Father & Husband</h3>
+                    </div>
+                    <div class="card-content">
+                            My second biggest experience is being a Father and Husband. My job and hobbies take up a lot of my time but I always make
+                            as much time as possible to be a family man. My two kids and wife definitely take a lot of work but they are so worth it!
+                    </div>
+                </div>         
+                <!--Card 3-->
+                <div class="grid-card">
+                    <!--Title-->
+                    <div class="card-title">
+                        <h3>Experience Three: Software Development</h3>
+                    </div>
+                    <div class="card-content">
+                            As indicated by this degree, I have very little experience with software development. I am earning my degree in Software Development
+                            and then will earn my Master Degree in Cyber Security. My hope is that when I retire from the Military, that I can began a career in
+                            Cyber security.
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="Contact">
+        <div class="contact">
 
+            <div class="contact-card">
+
+                <div class="card-title">
+                    <h2>Contact Form</h2>
+
+                <div class="contact-content">
+                    <div class="form">
+                        <label for="txtFirstName">First name:</label> <br />
+                        <input type="text" id="txtFirstName" class="input" name="txtFirstName" />
+                    </div>
+                    <div class="form">
+                        <label for="txtLastName">Last name:</label> <br />
+                        <input type="text" id="txtLastName" class="input" name="txtLastName" />
+                    </div>
+                    <div class="form">
+                        <label for="txtEmail">Email:</label> <br />
+                        <input type="text" id="txtEmail" class="input" name="txtEmail" /> 
+                    </div>    
+                    <div class="form">
+                        <button type="submit" class="btn">Send Message</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
 </body> 
 </html>   
