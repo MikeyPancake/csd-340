@@ -18,9 +18,16 @@
         <h1>Assignment 12.3: Final Exam</h1>
     </header> 
 
+    <div id="navbar">
+        <!--three anchor tags with an href of # and text values of Hobbies, Experiences, and Contact-->
+        <a href="#Hobbies">Hobbies</a>
+        <a href="#Experiences">Experiences</a>
+        <a href="#Contact">Contact</a>
+    </div>
+
     <div id="container">
         <!--Main div for Hobbies-->
-        <div class="hobbies">
+        <div class="hobbies" id="Hobbies">
             <h2>My Hobbies</h2>
             <!--Grid elements-->
             <div class="grid">
@@ -90,7 +97,7 @@
         </div>
 
         <!--Main div for the three images-->
-        <div id="experiences">
+        <div class="experiences" id="Experiences">
             <h2>My Experiences</h2>
             <!--Grid elements-->
             <div class="grid">
@@ -133,7 +140,7 @@
             </div>
         </div>
 
-        <div class="contact">
+        <div class="contact" id="Contact">
 
             <div class="contact-card">
 
@@ -160,5 +167,12 @@
             </div>
         </div>
     </div>
+
+    <footer>
+        <p>
+        <!--Display the current year using the document.write function document.write(new Date().getFullYear())-->
+            &copy; <script>document.write(new Date().getFullYear());</script> - <a href="https://www.bellevue.edu/" target="_blank">Bellevue University</a>
+        </p>   
+    </footer>
 </body> 
 </html>   

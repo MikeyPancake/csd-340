@@ -17,7 +17,27 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
-    border-bottom: #d6a800 solid 5px;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #4F3674;
+    border-bottom: 15px solid;
+    border-color: #D6A800;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #D6A800;
+    color: #4F3674;
 }
 
 h1 {
@@ -118,4 +138,30 @@ figcaption {
     padding-right: 1.5%;
     font-weight: 400;
     border: black solid 2px;
+}
+
+footer {
+    background-color: #4F3674;
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+    font-size: .75em;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
