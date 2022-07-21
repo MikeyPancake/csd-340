@@ -67,6 +67,7 @@ p {
 
 }
 
+/* Hobbies / Experiences */
 .hobbies, .experiences {
     min-height: 250px;
 }
@@ -105,6 +106,7 @@ figcaption {
     color: black;
 }
 
+/* Contact Card */
 .contact {
     margin-top: 0px;
     margin-bottom: 5%;
@@ -140,6 +142,7 @@ figcaption {
     border: black solid 2px;
 }
 
+/* Footer CSS */
 footer {
     background-color: #4F3674;
     position: fixed;
